@@ -7,19 +7,19 @@
 
     <title>Laravel-vite</title>
 
-    @vite(['resources/js/app.js', 'resources/css/app.css'])
+    @vite(['resources/js/app.js'])
 </head>
 
 <body class="bg-slate-900 text-slate-400">
-    <div class="text-center pt-10">
+    <div class="pt-10 text-center">
         <h1 class="text-3xl font-extrabold text-slate-200">
             Hi
         </h1>
-        <h4 class="text-xl pt-3">
+        <h4 class="pt-3 text-xl">
             Welcome to Laravel-vite
         </h4>
     </div>
-    <div class="flex justify-center items-center pt-12">
+    <div class="flex items-center justify-center pt-12">
         <img
         class="object-fill h-96"
         src="{{ Vite::image('logo.jpg') }}" alt="">
