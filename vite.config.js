@@ -14,6 +14,7 @@ export default defineConfig({
         alias: {
             '@comps': '/resources/js/components',
             '@css': '/resources/css',
+            '@image': '/resources/images',
         },
 
         // [
